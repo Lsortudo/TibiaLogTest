@@ -18,17 +18,22 @@ import (
 var filePath string
 var unknownDamageOrigin int
 var healthBlackKnight int
-var lootMap = make(map[string]int)
-var lootList []Loot
 
 // Declarar mapas
 var enemyDamages = make(map[string]int)
+var lootMap = make(map[string]int)
 
 // Dataclass  { Use struct in go }
+var lootList []Loot
+
 type Loot struct {
 	item  string
 	count int
 }
+
+type PlayerLossMessageProcessor struct{}
+type PlayerHealedMessageProcessor struct{}
+type PlayerExperiencedMessageProcessor struct{}
 
 // ReadFileCmd represents the ReadFile command
 var ReadFileCmd = &cobra.Command{
@@ -49,8 +54,6 @@ func init() {
 type InterfaceMessageProcessor interface {
 	Process(message string, playerHealed *int, playerDamageTaken *int, playerExperience *int)
 }
-
-type PlayerLossMessageProcessor struct{}
 
 func (p *PlayerLossMessageProcessor) Process(message string, playerHealed *int, playerDamageTaken *int, playerExperience *int) {
 	var enemyName string
@@ -75,9 +78,6 @@ func (p *PlayerLossMessageProcessor) Process(message string, playerHealed *int, 
 		}
 	}
 }
-
-type PlayerHealedMessageProcessor struct{}
-
 func (h *PlayerHealedMessageProcessor) Process(message string, playerHealed *int, playerDamageTaken *int, playerExperience *int) {
 	// Divide a linha em palavras
 	parts := strings.Split(message, " ")
@@ -95,9 +95,6 @@ func (h *PlayerHealedMessageProcessor) Process(message string, playerHealed *int
 		}
 	}
 }
-
-type PlayerExperiencedMessageProcessor struct{}
-
 func (e *PlayerExperiencedMessageProcessor) Process(message string, playerHealed *int, playerDamageTaken *int, playerExperience *int) {
 	parts := strings.Split(message, " ")
 
@@ -116,7 +113,6 @@ func (e *PlayerExperiencedMessageProcessor) Process(message string, playerHealed
 	}
 
 }
-
 func creatureBlackKnightHealth(message string) {
 	damageStr := ""
 	parts := strings.Split(message, "loses")
@@ -133,6 +129,41 @@ func creatureBlackKnightHealth(message string) {
 
 	healthBlackKnight += damage
 
+}
+func creatureLootTotal(message string) {
+	lootText := strings.Split(message, ": ")[1]
+	lootText = strings.TrimRight(lootText, ".,\"'") // remove a pontuação e as aspas do final da string
+	items := strings.Split(lootText, ", ")
+	for _, item := range items {
+		itemParts := strings.Split(item, " ")
+		count := 0 // valor padrão para quando não há especificação de quantidade
+		if len(itemParts) > 1 {
+			// Verifica se o primeiro termo é "a" ou "an" e incrementa a contagem em 1
+			if itemParts[0] == "a" || itemParts[0] == "an" {
+				count++
+				itemParts = itemParts[1:] // remove o primeiro termo ("a" ou "an")
+			}
+			// Converte o valor da quantidade para um número inteiro
+			quantity, err := strconv.Atoi(itemParts[0])
+			if err == nil {
+				count += quantity
+				itemParts = itemParts[1:] // remove a quantidade
+			}
+		} else {
+			count = 1
+		}
+		itemName := strings.Join(itemParts, " ")
+		switch itemName {
+		case "nothing":
+			// Caso seja o item "nothing", não faz nada
+		default:
+			lootMap[itemName] += count
+		}
+		/*if itemName == "nothing" {
+			continue // Ignora o item "nothing"
+		}
+		lootMap[itemName] += count*/
+	}
 }
 func getSingularItem(item string) string {
 	// Verificar se o nome do item termina com "s" e remover se sim
@@ -161,87 +192,20 @@ func ReadServerLogFile() {
 	// Itera sobre cada linha do arquivo
 	for scanner.Scan() {
 		message := scanner.Text()
-		if strings.Contains(message, "You lose") {
+		switch {
+		case strings.Contains(message, "You lose"):
 			playerLossMessageProcessor.Process(message, &playerHealed, &playerDamageTaken, &playerExperience)
-		}
-		if strings.Contains(message, "You healed") {
+		case strings.Contains(message, "You healed"):
 			playerHealedMessageProcessor.Process(message, &playerHealed, &playerDamageTaken, &playerExperience)
-		}
-		if strings.Contains(message, "You gained") {
+		case strings.Contains(message, "You gained"):
 			playerExperiencedMessageProcessor.Process(message, &playerHealed, &playerDamageTaken, &playerExperience)
-		}
-		if strings.Contains(message, "Black Knight") {
+		case strings.Contains(message, "Black Knight"):
 			creatureBlackKnightHealth(message)
-		}
-		if strings.Contains(message, "Loot of") {
-			lootText := strings.Split(message, ": ")[1]
-			lootText = strings.TrimRight(lootText, ".,\"'") // remove a pontuação e as aspas do final da string
-			items := strings.Split(lootText, ", ")
-			for _, item := range items {
-				itemParts := strings.Split(item, " ")
-				count := 0 // valor padrão para quando não há especificação de quantidade
-				if len(itemParts) > 1 {
-					// Verifica se o primeiro termo é "a" ou "an" e incrementa a contagem em 1
-					if itemParts[0] == "a" || itemParts[0] == "an" {
-						count++
-						itemParts = itemParts[1:] // remove o primeiro termo ("a" ou "an")
-					}
-					// Converte o valor da quantidade para um número inteiro
-					quantity, err := strconv.Atoi(itemParts[0])
-					if err == nil {
-						count += quantity
-						itemParts = itemParts[1:] // remove a quantidade
-					}
-				} else {
-					count = 1
-				}
-				itemName := strings.Join(itemParts, " ")
-				switch itemName {
-				case "nothing":
-					// Caso seja o item "nothing", não faz nada
-				default:
-					lootMap[itemName] += count
-				}
-				/*if itemName == "nothing" {
-					continue // Ignora o item "nothing"
-				}
-				lootMap[itemName] += count*/
-			}
+		case strings.Contains(message, "Loot of"):
+			creatureLootTotal(message)
 		}
 	}
-	/*if strings.Contains(message, "Loot of") {
-			lootText := strings.Split(message, ": ")[1]
-			lootText = strings.TrimRight(lootText, ".,\"'") // remove a pontuação e as aspas do final da string
-			items := strings.Split(lootText, ", ")
-			for _, item := range items {
-				itemParts := strings.Split(item, " ")
-				count, _ := strconv.Atoi(itemParts[0])
-				itemName := strings.Join(itemParts[1:], " ")
-				lootMap[itemName] += count
-			}
-		}
-		//if strings.Contains(message, "Black Knight" ) && strings.Contains(message, "loses")
-	}*/
-
-	// Console messages
-
-	fmt.Printf("----------------------------------------------------\n")
-	fmt.Printf("Dano total que você sofreu: %d\n", playerDamageTaken)
-	fmt.Printf("----------------------------------------------------\n")
-	fmt.Printf("Total de cura: %d\n", playerHealed)
-	fmt.Printf("----------------------------------------------------\n")
-	for enemy, damage := range enemyDamages {
-		fmt.Printf("O monstro %s lhe causou %d de dano total\n", strings.Title(enemy), damage)
-	}
-	fmt.Printf("----------------------------------------------------\n")
-	fmt.Printf("Total de dano desconhecido: %d\n", unknownDamageOrigin)
-	fmt.Printf("----------------------------------------------------\n")
-	fmt.Printf("Total de experiência obtida: %d\n", playerExperience)
-	fmt.Printf("----------------------------------------------------\n")
-	fmt.Printf("Vida de Black Knight: %d\n", healthBlackKnight)
-
 	combinedLootMap := make(map[string]int)
-
 	for item, count := range lootMap {
 		singularItem := getSingularItem(item) // Função para obter o singular do nome do item
 		combinedLootMap[singularItem] += count
@@ -251,9 +215,19 @@ func ReadServerLogFile() {
 		combinedLootList = append(combinedLootList, Loot{item, count})
 	}
 
-	fmt.Printf("----------------------------------------------------\n")
+	// Console messages
+	fmt.Printf("Total de cura: %d\n", playerHealed)
+	fmt.Printf("Dano total que você sofreu: %d\n", playerDamageTaken)
+	for enemy, damage := range enemyDamages {
+		fmt.Printf("O monstro %s lhe causou %d de dano total\n", strings.Title(enemy), damage)
+	}
+	fmt.Printf("Total de experiência obtida: %d\n", playerExperience)
+
 	fmt.Println("Loot:")
 	for _, loot := range combinedLootList {
 		fmt.Printf("%d %s\n", loot.count, loot.item)
 	}
+	fmt.Printf("------------------------ EXTRAS ------------------------\n")
+	fmt.Printf("Total de dano desconhecido: %d\n", unknownDamageOrigin)
+	fmt.Printf("Vida de Black Knight: %d\n", healthBlackKnight)
 }

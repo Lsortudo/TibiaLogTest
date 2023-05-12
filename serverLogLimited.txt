@@ -36,6 +36,8 @@
 15:43 You lose 31 hitpoints due to an attack by a cat. 
 15:43 You lose 31 hitpoints due to an attack by a tiger. 
 15:41 You lose 1 hitpoint. 
+18:46 You lose 68 hitpoints due to an attack by a Black Knight. 
+18:46 A Black Knight loses 200 hitpoints due to your attack. 
 18:46 A Black Knight loses 100 hitpoints due to your attack. 
 18:46 A Black Knight loses 50 hitpoints due to your attack. 
 18:46 A Black Knight loses 200 hitpoints due to your attack. 

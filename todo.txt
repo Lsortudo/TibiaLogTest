@@ -34,7 +34,7 @@ DONE____________________________________________________Mapa de chave e valor  c
 
 Upgrades -> 
 
-Switchs no lugar do if;
+DONE____________________________________________________Switchs no lugar do if;
 
 Estruturar meu struct (como se fosse um Dataclass em Kotlin)
 
