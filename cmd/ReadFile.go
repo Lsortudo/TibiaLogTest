@@ -89,6 +89,27 @@ func (h *PlayerHealedMessageProcessor) Process(message string, playerHealed *int
 	}
 }
 
+type PlayerExperiencedMessageProcessor struct{}
+
+func (e *PlayerExperiencedMessageProcessor) Process(message string, playerHealed *int, playerDamageTaken *int, playerExperience *int) {
+	parts := strings.Split(message, " ")
+
+	for i, word := range parts {
+		if word == "gained" && i < len(parts)-1 {
+			// Extrai o valor numérico da palavra seguinte
+			experienceStr := parts[i+1]
+			experience, err := strconv.Atoi(experienceStr)
+			if err != nil {
+				fmt.Println("Erro ao converter o valor de experiência:", err)
+				continue
+			}
+
+			*playerExperience += experience
+		}
+	}
+
+}
+
 func ReadServerLogFile() {
 	f, err := os.Open(filePath)
 	if err != nil {
@@ -104,7 +125,7 @@ func ReadServerLogFile() {
 
 	var playerLossMessageProcessor InterfaceMessageProcessor = &PlayerLossMessageProcessor{}
 	var playerHealedMessageProcessor InterfaceMessageProcessor = &PlayerHealedMessageProcessor{}
-
+	var playerExperiencedMessageProcessor InterfaceMessageProcessor = &PlayerExperiencedMessageProcessor{}
 	// Itera sobre cada linha do arquivo
 	for scanner.Scan() {
 		message := scanner.Text()
@@ -113,6 +134,9 @@ func ReadServerLogFile() {
 		}
 		if strings.Contains(message, "You healed") {
 			playerHealedMessageProcessor.Process(message, &playerHealed, &playerDamageTaken, &playerExperience)
+		}
+		if strings.Contains(message, "You gained") {
+			playerExperiencedMessageProcessor.Process(message, &playerHealed, &playerDamageTaken, &playerExperience)
 		}
 	}
 
@@ -128,5 +152,7 @@ func ReadServerLogFile() {
 	}
 	fmt.Printf("----------------------------------------------------\n")
 	fmt.Printf("Total de dano desconhecido: %d\n", unknownDamageOrigin)
+	fmt.Printf("----------------------------------------------------\n")
+	fmt.Printf("Total de experiência obtida: %d\n", playerExperience)
 	fmt.Printf("----------------------------------------------------\n")
 }
