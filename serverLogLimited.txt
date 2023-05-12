@@ -3,8 +3,10 @@
 15:41 You lose 1 hitpoint. 
 15:41 You lose 1 hitpoint. 
 15:42 You healed yourself for 328 hitpoints.
+15:47 A dragon healed itself for 60 hitpoints.
 15:43 A cyclops loses 260 hitpoints due to your attack. 
 15:43 You gained 150 experience points.
+15:47 A cat healed itself for 60 hitpoints.
 15:42 You healed yourself for 125 hitpoints.
 15:43 Loot of a cyclops: 11 gold coins.
 15:43 You lose 31 hitpoints due to an attack by a cyclops. 
@@ -31,6 +33,5 @@
 15:44 You gained 150 experience points.
 15:44 Loot of a cyclops: nothing.
 15:44 You lose 5 hitpoints due to an attack by a cyclops. 
-15:45 You healed yourself for 84 hitpoints.
 15:46 A dwarf soldier loses 135 hitpoints due to your attack. 
 15:46 You gained 70 experience points.

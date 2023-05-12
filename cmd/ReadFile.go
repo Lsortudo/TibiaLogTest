@@ -58,13 +58,26 @@ func (p *PlayerLossMessageProcessor) Process(message string, playerHealed *int, 
 			*playerDamageTaken += damage
 		}
 	}
-	/*parts := strings.Split(message, " lose ")
-	n, err := fmt.Sscanf(parts[1], "%d hitpoints ", &damage)
-	if n == 1 && err == nil {
-		// Imprimindo a quantidade de dano sofrido pelo jogador e adicionando-a à variável playerDamageTaken.
-		fmt.Printf("Você sofreu %d de dano\n", damage)
-		*playerDamageTaken += damage
-	}*/
+}
+
+type PlayerHealedMessageProcessor struct{}
+
+func (h *PlayerHealedMessageProcessor) Process(message string, playerHealed *int, playerDamageTaken *int, playerExperience *int) {
+	// Divide a linha em palavras
+	parts := strings.Split(message, " ")
+	// Procura a palavra que indica o valor da cura
+	for i, word := range parts {
+		if word == "for" && i < len(parts)-1 {
+			// Extrai o valor numérico da palavra seguinte
+			healStr := parts[i+1]
+			heal, err := strconv.Atoi(healStr)
+			if err != nil {
+				fmt.Println("Erro ao converter o valor da cura:", err)
+				continue
+			}
+			*playerHealed += heal
+		}
+	}
 }
 
 func ReadServerLogFile() {
@@ -81,6 +94,7 @@ func ReadServerLogFile() {
 	var playerDamageTaken, playerHealed, playerExperience int
 
 	var playerLossMessageProcessor InterfaceMessageProcessor = &PlayerLossMessageProcessor{}
+	var playerHealedMessageProcessor InterfaceMessageProcessor = &PlayerHealedMessageProcessor{}
 
 	// Itera sobre cada linha do arquivo
 	for scanner.Scan() {
@@ -88,11 +102,20 @@ func ReadServerLogFile() {
 		if strings.Contains(message, "You lose") {
 			playerLossMessageProcessor.Process(message, &playerHealed, &playerDamageTaken, &playerExperience)
 		}
+		if strings.Contains(message, "You healed") {
+			playerHealedMessageProcessor.Process(message, &playerHealed, &playerDamageTaken, &playerExperience)
+		}
 	}
 
 	// Console messages
 
 	fmt.Printf("----------------------------------------------------\n")
 	fmt.Printf("Dano total que você sofreu: %d\n", playerDamageTaken)
+	fmt.Printf("----------------------------------------------------\n")
+	fmt.Printf("Total de cura: %d\n", playerHealed)
+	fmt.Printf("----------------------------------------------------\n")
 
+	fmt.Printf("----------------------------------------------------\n")
+
+	fmt.Printf("----------------------------------------------------\n")
 }
