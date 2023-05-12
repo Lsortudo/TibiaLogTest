@@ -16,6 +16,7 @@ import (
 
 // Declarar variaveis
 var filePath string
+var unknownDamageOrigin int
 
 // Declarar mapas
 var enemyDamages = make(map[string]int)
@@ -45,6 +46,7 @@ type InterfaceMessageProcessor interface {
 type PlayerLossMessageProcessor struct{}
 
 func (p *PlayerLossMessageProcessor) Process(message string, playerHealed *int, playerDamageTaken *int, playerExperience *int) {
+	var enemyName string
 	parts := strings.Split(message, " ")
 	for i, word := range parts {
 		if word == "lose" && i < len(parts)-1 {
@@ -55,7 +57,14 @@ func (p *PlayerLossMessageProcessor) Process(message string, playerHealed *int, 
 				fmt.Println("Erro ao converter o valor do dano:", err)
 				continue
 			}
+			enemyName = parts[len(parts)-2]
+			enemyName = strings.TrimRight(enemyName, ".")
+			if enemyName == "hitpoint" {
+				unknownDamageOrigin += damage
+				continue
+			}
 			*playerDamageTaken += damage
+			enemyDamages[enemyName] += damage
 		}
 	}
 }
@@ -114,8 +123,10 @@ func ReadServerLogFile() {
 	fmt.Printf("----------------------------------------------------\n")
 	fmt.Printf("Total de cura: %d\n", playerHealed)
 	fmt.Printf("----------------------------------------------------\n")
-
+	for enemy, damage := range enemyDamages {
+		fmt.Printf("O monstro %s lhe causou %d de dano total\n", strings.Title(enemy), damage)
+	}
 	fmt.Printf("----------------------------------------------------\n")
-
+	fmt.Printf("Total de dano desconhecido: %d\n", unknownDamageOrigin)
 	fmt.Printf("----------------------------------------------------\n")
 }

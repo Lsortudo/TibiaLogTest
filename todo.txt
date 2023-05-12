@@ -8,18 +8,24 @@ DONE____________________________________________________Total damage healed by t
 
 DONE____________________________________________________Total damage taken by the player;
 
-Total damage taken by the player per creature kind;
+DONE____________________________________________________Total damage taken by the player per creature kind;
 
 Total experience received;
 
 Amount of items dropped by each creature;
 
 
+__EXTRAS__
+What is the total health of Black Knight creature?
+DONE____________________________________________________What is the total damage taken by unknown origins?
+
 
 __NEXT__
 Unit tests
 What is the total damage taken by unknown origins?
 What is the total health of Black Knight creature? { ? total DMG pode ser 2000 de dano e a criatura morrer, mas ela pode ter 1900 de vida }
+
+
 
 
 

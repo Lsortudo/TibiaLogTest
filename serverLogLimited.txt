@@ -35,3 +35,12 @@
 15:44 You lose 5 hitpoints due to an attack by a cyclops. 
 15:46 A dwarf soldier loses 135 hitpoints due to your attack. 
 15:46 You gained 70 experience points.
+15:41 You lose 1 hitpoint. 
+15:41 You lose 1 hitpoint. 
+15:43 You lose 31 hitpoints due to an attack by a cyclops. 
+15:43 You lose 31 hitpoints due to an attack by a tiger. 
+15:41 You lose 1 hitpoint. 
+15:43 You lose 31 hitpoints due to an attack by a cyclops. 
+15:43 You lose 31 hitpoints due to an attack by a cat. 
+15:43 You lose 31 hitpoints due to an attack by a tiger. 
+15:41 You lose 1 hitpoint. 
