@@ -1,0 +1,24 @@
+Req to do:
+
+Read the log file
+
+Extract the following informations from the log:
+
+Total damage healed by the player;
+
+DONE____________________________________________________Total damage taken by the player;
+
+Total damage taken by the player per creature kind;
+
+Total experience received;
+
+Amount of items dropped by each creature;
+
+
+
+__NEXT__
+Unit tests
+What is the total damage taken by unknown origins?
+What is the total health of Black Knight creature? { ? total DMG pode ser 2000 de dano e a criatura morrer, mas ela pode ter 1900 de vida }
+
+
