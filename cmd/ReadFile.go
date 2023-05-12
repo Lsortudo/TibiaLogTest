@@ -18,11 +18,17 @@ import (
 var filePath string
 var unknownDamageOrigin int
 var healthBlackKnight int
+var lootMap = make(map[string]int)
+var lootList []Loot
 
 // Declarar mapas
 var enemyDamages = make(map[string]int)
 
 // Dataclass  { Use struct in go }
+type Loot struct {
+	item  string
+	count int
+}
 
 // ReadFileCmd represents the ReadFile command
 var ReadFileCmd = &cobra.Command{
@@ -160,8 +166,44 @@ func ReadServerLogFile() {
 		if strings.Contains(message, "Black Knight") {
 			creatureBlackKnightHealth(message)
 		}
-		//if strings.Contains(message, "Black Knight" ) && strings.Contains(message, "loses")
+		if strings.Contains(message, "Loot of") {
+			lootText := strings.Split(message, ": ")[1]
+			lootText = strings.TrimRight(lootText, ".,\"'") // remove a pontuação e as aspas do final da string
+			items := strings.Split(lootText, ", ")
+			for _, item := range items {
+				itemParts := strings.Split(item, " ")
+				count := 0 // valor padrão para quando não há especificação de quantidade
+				if len(itemParts) > 1 {
+					// Verifica se o primeiro termo é "a" ou "an" e incrementa a contagem em 1
+					if itemParts[0] == "a" || itemParts[0] == "an" {
+						count++
+						itemParts = itemParts[1:] // remove o primeiro termo ("a" ou "an")
+					}
+					// Converte o valor da quantidade para um número inteiro
+					quantity, err := strconv.Atoi(itemParts[0])
+					if err == nil {
+						count += quantity
+						itemParts = itemParts[1:] // remove a quantidade
+					}
+				}
+				itemName := strings.Join(itemParts, " ")
+				lootMap[itemName] += count
+			}
+		}
 	}
+	/*if strings.Contains(message, "Loot of") {
+			lootText := strings.Split(message, ": ")[1]
+			lootText = strings.TrimRight(lootText, ".,\"'") // remove a pontuação e as aspas do final da string
+			items := strings.Split(lootText, ", ")
+			for _, item := range items {
+				itemParts := strings.Split(item, " ")
+				count, _ := strconv.Atoi(itemParts[0])
+				itemName := strings.Join(itemParts[1:], " ")
+				lootMap[itemName] += count
+			}
+		}
+		//if strings.Contains(message, "Black Knight" ) && strings.Contains(message, "loses")
+	}*/
 
 	// Console messages
 
@@ -179,4 +221,13 @@ func ReadServerLogFile() {
 	fmt.Printf("Total de experiência obtida: %d\n", playerExperience)
 	fmt.Printf("----------------------------------------------------\n")
 	fmt.Printf("Vida de Black Knight: %d\n", healthBlackKnight)
+
+	for item, count := range lootMap {
+		lootList = append(lootList, Loot{item, count})
+	}
+	fmt.Printf("----------------------------------------------------\n")
+	fmt.Println("Loot:")
+	for _, loot := range lootList {
+		fmt.Printf("%d %s\n", loot.count, loot.item)
+	}
 }

@@ -24,8 +24,18 @@ What is the total health of Black Knight creature? { ? total DMG pode ser 2000 d
 
 
 
+O que faze pra calcular o loot? Ideias
+Mapa de chave e valor  com um {   if A or AN    } quantidade = 1        Assim mandando pro mapa o LootName e a quantidade corretamente 
 
 
 
 
 
+
+Upgrades -> 
+
+Switchs no lugar do if;
+
+Estruturar meu struct (como se fosse um Dataclass em Kotlin)
+
+Estruturar meu struct pra ficar em conforme com possível arquivo JSON pra ser enviado pra webserver//front

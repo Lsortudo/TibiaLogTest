@@ -8,30 +8,22 @@
 15:43 You gained 150 experience points.
 15:47 A cat healed itself for 60 hitpoints.
 15:42 You healed yourself for 125 hitpoints.
-15:43 Loot of a cyclops: 11 gold coins.
 15:43 You lose 31 hitpoints due to an attack by a cyclops. 
 15:43 A cyclops loses 260 hitpoints due to your attack. 
 15:43 You gained 150 experience points.
-15:43 Loot of a cyclops: 6 gold coins.
 15:43 A cyclops loses 260 hitpoints due to your attack. 
 15:43 You gained 150 experience points.
-15:43 Loot of a cyclops: 13 gold coins.
 15:43 A rat loses 20 hitpoints due to your attack. 
 15:43 You gained 5 experience points.
-15:43 Loot of a rat: a gold coin.
 15:43 You gained 150 experience points.
 15:43 A cyclops loses 260 hitpoints due to your attack. 
 15:43 You gained 150 experience points.
-15:43 Loot of a cyclops: a cyclops trophy, 29 gold coins.
 15:43 A cyclops loses 260 hitpoints due to your attack. 
 15:43 You gained 150 experience points.
-15:43 Loot of a cyclops: nothing.
 15:44 You lose 14 hitpoints due to an attack by a cyclops. 
 15:44 A cyclops loses 260 hitpoints due to your attack. 
 15:44 You gained 150 experience points.
-15:44 Loot of a cyclops: 25 gold coins.
 15:44 You gained 150 experience points.
-15:44 Loot of a cyclops: nothing.
 15:44 You lose 5 hitpoints due to an attack by a cyclops. 
 15:46 A dwarf soldier loses 135 hitpoints due to your attack. 
 15:46 You gained 70 experience points.
@@ -48,3 +40,11 @@
 18:46 A Black Knight loses 50 hitpoints due to your attack. 
 18:46 A Black Knight loses 200 hitpoints due to your attack. 
 18:46 A Black Knight loses 150 hitpoints due to your attack. 
+15:43 Loot of a rat: a gold coin.
+15:43 Loot of a cyclops: 10 gold coins.
+15:44 Loot of a cyclops: nothing.
+15:43 Loot of a cyclops: 15 gold coins.
+15:43 Loot of a cyclops: a cyclops trophy, 5 gold coins.
+15:44 Loot of a cyclops: 25 gold coins.
+15:43 Loot of a cyclops: nothing.
+15:43 Loot of a cyclops: a cyclops trophy, 10 gold coins.
