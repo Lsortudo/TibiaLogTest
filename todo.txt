@@ -12,20 +12,20 @@ DONE____________________________________________________Total damage taken by th
 
 DONE____________________________________________________Total experience received;
 
-Amount of items dropped by each creature;
+DONE____________________________________________________Amount of items dropped by each creature;
 
 
 __NEXT__
 Unit tests
 DONE____________________________________________________What is the total damage taken by unknown origins?
-What is the total health of Black Knight creature? { ? total DMG pode ser 2000 de dano e a criatura morrer, mas ela pode ter 1900 de vida }
+DONE MAYBE?_____________________________________________What is the total health of Black Knight creature? { ? total DMG pode ser 2000 de dano e a criatura morrer, mas ela pode ter 1900 de vida }
 
 
 
 
 
-O que faze pra calcular o loot? Ideias
-Mapa de chave e valor  com um {   if A or AN    } quantidade = 1        Assim mandando pro mapa o LootName e a quantidade corretamente 
+DONE____________________________________________________O que faze pra calcular o loot? Ideias
+DONE____________________________________________________Mapa de chave e valor  com um {   if A or AN    } quantidade = 1        Assim mandando pro mapa o LootName e a quantidade corretamente 
 
 
 

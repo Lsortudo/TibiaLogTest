@@ -179,7 +179,7 @@ func ReadServerLogFile() {
 			items := strings.Split(lootText, ", ")
 			for _, item := range items {
 				itemParts := strings.Split(item, " ")
-				count := 1 // valor padrão para quando não há especificação de quantidade
+				count := 0 // valor padrão para quando não há especificação de quantidade
 				if len(itemParts) > 1 {
 					// Verifica se o primeiro termo é "a" ou "an" e incrementa a contagem em 1
 					if itemParts[0] == "a" || itemParts[0] == "an" {
@@ -192,9 +192,20 @@ func ReadServerLogFile() {
 						count += quantity
 						itemParts = itemParts[1:] // remove a quantidade
 					}
+				} else {
+					count = 1
 				}
 				itemName := strings.Join(itemParts, " ")
-				lootMap[itemName] += count
+				switch itemName {
+				case "nothing":
+					// Caso seja o item "nothing", não faz nada
+				default:
+					lootMap[itemName] += count
+				}
+				/*if itemName == "nothing" {
+					continue // Ignora o item "nothing"
+				}
+				lootMap[itemName] += count*/
 			}
 		}
 	}
