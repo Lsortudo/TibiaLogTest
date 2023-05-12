@@ -134,6 +134,13 @@ func creatureBlackKnightHealth(message string) {
 	healthBlackKnight += damage
 
 }
+func getSingularItem(item string) string {
+	// Verificar se o nome do item termina com "s" e remover se sim
+	if strings.HasSuffix(item, "s") {
+		return item[:len(item)-1]
+	}
+	return item
+}
 
 func ReadServerLogFile() {
 	f, err := os.Open(filePath)
@@ -172,7 +179,7 @@ func ReadServerLogFile() {
 			items := strings.Split(lootText, ", ")
 			for _, item := range items {
 				itemParts := strings.Split(item, " ")
-				count := 0 // valor padrão para quando não há especificação de quantidade
+				count := 1 // valor padrão para quando não há especificação de quantidade
 				if len(itemParts) > 1 {
 					// Verifica se o primeiro termo é "a" ou "an" e incrementa a contagem em 1
 					if itemParts[0] == "a" || itemParts[0] == "an" {
@@ -222,12 +229,20 @@ func ReadServerLogFile() {
 	fmt.Printf("----------------------------------------------------\n")
 	fmt.Printf("Vida de Black Knight: %d\n", healthBlackKnight)
 
+	combinedLootMap := make(map[string]int)
+
 	for item, count := range lootMap {
-		lootList = append(lootList, Loot{item, count})
+		singularItem := getSingularItem(item) // Função para obter o singular do nome do item
+		combinedLootMap[singularItem] += count
 	}
+	var combinedLootList []Loot
+	for item, count := range combinedLootMap {
+		combinedLootList = append(combinedLootList, Loot{item, count})
+	}
+
 	fmt.Printf("----------------------------------------------------\n")
 	fmt.Println("Loot:")
-	for _, loot := range lootList {
+	for _, loot := range combinedLootList {
 		fmt.Printf("%d %s\n", loot.count, loot.item)
 	}
 }
