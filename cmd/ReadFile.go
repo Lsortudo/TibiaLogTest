@@ -17,6 +17,7 @@ import (
 // Declarar variaveis
 var filePath string
 var unknownDamageOrigin int
+var healthBlackKnight int
 
 // Declarar mapas
 var enemyDamages = make(map[string]int)
@@ -110,6 +111,21 @@ func (e *PlayerExperiencedMessageProcessor) Process(message string, playerHealed
 
 }
 
+func creatureBlackKnightHealth(message string) {
+
+	parts := strings.Split(message, "loses")
+
+	if len(parts) >= 2 {
+		damageStr := parts[1]
+		damage, err := strconv.Atoi(strings.TrimSpace(damageStr))
+		if err != nil {
+			fmt.Println("Erro ao converter o valor do dano:", err)
+		}
+
+		healthBlackKnight += damage
+	}
+}
+
 func ReadServerLogFile() {
 	f, err := os.Open(filePath)
 	if err != nil {
@@ -138,6 +154,10 @@ func ReadServerLogFile() {
 		if strings.Contains(message, "You gained") {
 			playerExperiencedMessageProcessor.Process(message, &playerHealed, &playerDamageTaken, &playerExperience)
 		}
+		if strings.Contains(message, "Black Knight") {
+			creatureBlackKnightHealth(message)
+		}
+		//if strings.Contains(message, "Black Knight" ) && strings.Contains(message, "loses")
 	}
 
 	// Console messages
@@ -155,4 +175,5 @@ func ReadServerLogFile() {
 	fmt.Printf("----------------------------------------------------\n")
 	fmt.Printf("Total de experiência obtida: %d\n", playerExperience)
 	fmt.Printf("----------------------------------------------------\n")
+	fmt.Printf("Vida de BlackKnight: %d\n", healthBlackKnight)
 }
