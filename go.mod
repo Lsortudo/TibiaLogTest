@@ -1,4 +1,4 @@
-module github.com/Lsortudo/TibiaLogTest.git
+module github.com/Lsortudo/TibiaLogTest
 
 go 1.20
 
