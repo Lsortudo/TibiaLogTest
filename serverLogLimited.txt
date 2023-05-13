@@ -52,3 +52,6 @@
 15:43 Loot of a cyclops: meat.
 15:43 Loot of a cyclops: meat.
 15:43 Loot of a cyclops: a cyclops trophy, 10 gold coins.
+18:31 Loot of a wyvern: dragon ham, 21 gold coins.
+18:31 Loot of a deer: ham, 3 meat.
+18:31 Loot of a deer: diamond sword.

@@ -27,17 +27,22 @@ func Test_creatureBlackKnightHealth(t *testing.T) {
 	if healthBlackKnight != expectedHealth {
 		t.Errorf("Resultado incorreto. Esperado: %d, Obtido: %d", expectedHealth, healthBlackKnight)
 	}
+	message = "18:46 A Black Knight loses 40 hitpoints due to your attack."
+	creatureBlackKnightHealth(message)
+	expectedHealth += 40
+	if healthBlackKnight != expectedHealth {
+		t.Errorf("Resultado incorreto. Esperado: %d, Obtido: %d", expectedHealth, healthBlackKnight)
+	}
 
 	// Teste caso a mensagem não tenha a palavra-chave "hitpoints"
-	message = "The Black Knight loses 15"
+	message = "18:46 A Black Knight loses 15 due to your attack."
 	creatureBlackKnightHealth(message)
-	expectedHealth += 15
 	if healthBlackKnight != expectedHealth {
 		t.Errorf("Resultado incorreto. Esperado: %d, Obtido: %d", expectedHealth, healthBlackKnight)
 	}
 
 	// Teste caso o valor do dano não possa ser convertido para inteiro
-	message = "The Black Knight loses abc hitpoints"
+	message = "18:46 A Black Knight loses abc hitpoints due to your attack."
 	creatureBlackKnightHealth(message)
 	if healthBlackKnight != expectedHealth {
 		t.Errorf("Resultado incorreto. Esperado: %d, Obtido: %d", expectedHealth, healthBlackKnight)
@@ -47,7 +52,7 @@ func Test_creatureBlackKnightHealth(t *testing.T) {
 
 func Test_creatureLootTotal(t *testing.T) {
 	// Caso de teste com uma mensagem válida contendo um item
-	message := "The creature dropped: a sword"
+	message := "15:43 Loot of a cyclops: a sword"
 	lootMap = make(map[string]int)
 	creatureLootTotal(message)
 	expectedLoot := map[string]int{"sword": 1}
@@ -56,7 +61,7 @@ func Test_creatureLootTotal(t *testing.T) {
 	}
 
 	// Caso de teste com uma mensagem válida contendo múltiplos itens
-	message = "The creature dropped: 3 gold coins, an apple, a potion"
+	message = "15:43 Loot of a cyclops: 3 gold coins, an apple, a potion"
 	lootMap = make(map[string]int)
 	creatureLootTotal(message)
 	expectedLoot = map[string]int{"gold coins": 3, "apple": 1, "potion": 1}
@@ -65,16 +70,16 @@ func Test_creatureLootTotal(t *testing.T) {
 	}
 
 	// Caso de teste com uma mensagem válida contendo um item com quantidade implícita
-	message = "The creature dropped: 1 axe"
+	message = "18:31 Loot of a wyvern: dragon ham, 21 gold coins."
 	lootMap = make(map[string]int)
 	creatureLootTotal(message)
-	expectedLoot = map[string]int{"axe": 1}
+	expectedLoot = map[string]int{"dragon ham": 1, "gold coins": 21}
 	if !equalLootMap(lootMap, expectedLoot) {
 		t.Errorf("Resultado incorreto. Esperado: %v, Obtido: %v", expectedLoot, lootMap)
 	}
 
 	// Caso de teste com uma mensagem válida contendo o item "nothing"
-	message = "The creature dropped: nothing"
+	message = "18:31 Loot of a wyvern: nothing."
 	lootMap = make(map[string]int)
 	creatureLootTotal(message)
 	expectedLoot = map[string]int{}

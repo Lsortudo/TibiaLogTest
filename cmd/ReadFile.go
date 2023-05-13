@@ -24,7 +24,7 @@ var enemyDamages = make(map[string]int)
 var lootMap = make(map[string]int)
 
 // Dataclass  { Use struct in go }
-var lootList []Loot
+//var lootList []Loot
 
 type Loot struct {
 	item  string
@@ -38,8 +38,8 @@ type PlayerExperiencedMessageProcessor struct{}
 // ReadFileCmd represents the ReadFile command
 var ReadFileCmd = &cobra.Command{
 	Use:   "ReadFile",
-	Short: "Descrição curta",
-	Long:  `Descrição longa.`,
+	Short: "A code to read logs from a game called Tibia",
+	Long:  `This is a project where u can run the code go run main.go --path yourfilepath to read an txt file containing logs from a game called Tibia`,
 	Run: func(cmd *cobra.Command, args []string) {
 		ReadServerLogFile()
 	},
@@ -130,6 +130,7 @@ func creatureBlackKnightHealth(message string) {
 	healthBlackKnight += damage
 
 }
+
 func creatureLootTotal(message string) {
 	lootText := strings.Split(message, ": ")[1]
 	lootText = strings.TrimRight(lootText, ".,\"'") // remove a pontuação e as aspas do final da string
@@ -161,6 +162,7 @@ func creatureLootTotal(message string) {
 		}
 	}
 }
+
 func getSingularItem(item string) string {
 	// Verificar se o nome do item termina com "s" e remover se sim
 	if strings.HasSuffix(item, "s") {
