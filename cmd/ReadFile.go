@@ -159,10 +159,6 @@ func creatureLootTotal(message string) {
 		default:
 			lootMap[itemName] += count
 		}
-		/*if itemName == "nothing" {
-			continue // Ignora o item "nothing"
-		}
-		lootMap[itemName] += count*/
 	}
 }
 func getSingularItem(item string) string {
