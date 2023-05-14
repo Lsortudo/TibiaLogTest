@@ -1,0 +1,935 @@
+Channel Server Log saved Wed Apr 12 15:48:26 2023
+15:41 Your last visit in Tibia: 11. Jan 2023 01:23:38 CET.
+15:41 Today's boosted creature: Hydra
+Boosted creatures yield more experience points, carry more loot than usual and respawn at a faster rate.
+15:41 Today's boosted boss: Goshnar's Malice
+Boosted bosses contain more loot and count more kills for your Bosstiary.
+15:41 Due to your long-term loyalty to Tibia, you currently benefit from a 20% bonus on all of your skills.
+15:41 You lose 1 hitpoint. 
+15:41 You lose 1 hitpoint. 
+15:41 You lose 1 hitpoint. 
+15:41 You lose 1 hitpoint. 
+15:41 You lose 1 hitpoint. 
+15:41 You lose 1 hitpoint. 
+15:41 You lose 1 hitpoint. 
+15:42 You lose 1 hitpoint. 
+15:42 You healed yourself for 328 hitpoints.
+15:43 A cyclops loses 260 hitpoints due to your attack. 
+15:43 You gained 150 experience points.
+15:43 Loot of a cyclops: 11 gold coins.
+15:43 You lose 31 hitpoints due to an attack by a cyclops. 
+15:43 A cyclops loses 260 hitpoints due to your attack. 
+15:43 You gained 150 experience points.
+15:43 Loot of a cyclops: 6 gold coins.
+15:43 A cyclops loses 260 hitpoints due to your attack. 
+15:43 You gained 150 experience points.
+15:43 Loot of a cyclops: 13 gold coins.
+15:43 A rat loses 20 hitpoints due to your attack. 
+15:43 You gained 5 experience points.
+15:43 Loot of a rat: a gold coin.
+15:43 You lose 2 hitpoints due to an attack by a ghoul. 
+15:43 A ghoul loses 100 hitpoints due to your attack. 
+15:43 You gained 85 experience points.
+15:43 Loot of a ghoul: nothing.
+15:43 A skeleton loses 50 hitpoints due to your attack. 
+15:43 You gained 35 experience points.
+15:43 Loot of a skeleton: 3 gold coins.
+15:43 You lose 5 hitpoints due to an attack by a cyclops. 
+15:43 A cyclops loses 260 hitpoints due to your attack. 
+15:43 You gained 150 experience points.
+15:43 Loot of a cyclops: nothing.
+15:43 A cyclops loses 260 hitpoints due to your attack. 
+15:43 You gained 150 experience points.
+15:43 Loot of a cyclops: a cyclops trophy, 29 gold coins.
+15:43 A cyclops loses 260 hitpoints due to your attack. 
+15:43 You gained 150 experience points.
+15:43 Loot of a cyclops: nothing.
+15:44 You lose 14 hitpoints due to an attack by a cyclops. 
+15:44 A cyclops loses 260 hitpoints due to your attack. 
+15:44 You gained 150 experience points.
+15:44 Loot of a cyclops: 25 gold coins.
+15:44 You lose 29 hitpoints due to an attack by a cyclops smith. 
+15:44 A cyclops smith loses 419 hitpoints due to your attack. 
+15:44 You lose 35 hitpoints due to an attack by a cyclops. 
+15:44 A cyclops smith loses 16 hitpoints due to your attack. 
+15:44 You gained 255 experience points.
+15:44 Loot of a cyclops smith: a cyclops toe, 13 gold coins, meat.
+15:44 You lose 11 hitpoints due to an attack by a cyclops. 
+15:44 A cyclops loses 260 hitpoints due to your attack. 
+15:44 You gained 150 experience points.
+15:44 Loot of a cyclops: nothing.
+15:44 You lose 5 hitpoints due to an attack by a cyclops. 
+15:45 You healed yourself for 84 hitpoints.
+15:45 You healed yourself for 83 hitpoints.
+15:45 You healed yourself for 79 hitpoints.
+15:46 A dwarf loses 90 hitpoints due to your attack. 
+15:46 You gained 45 experience points.
+15:46 Loot of a dwarf: a hatchet.
+15:46 You lose 3 hitpoints due to an attack by a dwarf soldier. 
+15:46 A dwarf soldier loses 135 hitpoints due to your attack. 
+15:46 You gained 70 experience points.
+15:46 Loot of a dwarf soldier: nothing.
+15:46 A dwarf loses 90 hitpoints due to your attack. 
+15:46 You gained 45 experience points.
+15:46 Loot of a dwarf: a gold coin, a letter.
+15:46 You lose 9 hitpoints due to an attack by a dwarf soldier. 
+15:46 A dwarf loses 90 hitpoints due to your attack. 
+15:46 You gained 45 experience points.
+15:46 Loot of a dwarf: 5 gold coins.
+15:46 A dwarf soldier loses 135 hitpoints due to your attack. 
+15:46 You gained 70 experience points.
+15:46 Loot of a dwarf soldier: nothing.
+15:46 A spider loses 20 hitpoints due to your attack. 
+15:46 You gained 12 experience points.
+15:46 Loot of a spider: 3 gold coins.
+15:46 A dragon loses 386 hitpoints due to your attack. 
+15:46 You lose 148 hitpoints due to an attack by a dragon. 
+15:46 A dragon loses 242 hitpoints due to your attack. 
+15:46 You lose 24 hitpoints due to an attack by a dragon. 
+15:46 A dragon loses 329 hitpoints due to your attack. 
+15:46 You lose 38 hitpoints due to an attack by a dragon. 
+15:46 A dragon loses 43 hitpoints due to your attack. 
+15:46 You gained 700 experience points.
+15:46 Loot of a dragon: dragon ham, 14 gold coins.
+15:47 You lose 9 hitpoints. 
+15:47 You lose 75 hitpoints due to an attack by a dragon. 
+15:47 You lose 34 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 486 hitpoints due to your attack. 
+15:47 You lose 9 hitpoints. 
+15:47 A dragon loses 514 hitpoints due to your attack. 
+15:47 You gained 700 experience points.
+15:47 Loot of a dragon: 51 gold coins, plate legs.
+15:47 You lose 9 hitpoints. 
+15:47 A dragon loses 511 hitpoints due to your attack. 
+15:47 You lose 64 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 379 hitpoints due to your attack. 
+15:47 You lose 72 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 274 hitpoints due to your attack. 
+15:47 You lose 25 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 310 hitpoints due to your attack. 
+15:47 You lose 9 hitpoints. 
+15:47 You lose 25 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 176 hitpoints due to your attack. 
+15:47 You would have received 4 dust for the Exaltation Forge if you played on a Premium account.
+15:47 You gained 700 experience points.
+15:47 Loot of a dragon: 2 dragon ham, 24 gold coins.
+15:47 A dragon loses 303 hitpoints due to your attack. 
+15:47 You lose 121 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 541 hitpoints due to your attack. 
+15:47 You healed yourself for 333 hitpoints.
+15:47 A dragon healed itself for 60 hitpoints.
+15:47 You lose 78 hitpoints due to an attack by a dragon. 
+15:47 You lose 91 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 216 hitpoints due to your attack. 
+15:47 You gained 700 experience points.
+15:47 Loot of a dragon: dragon ham, 52 gold coins.
+15:47 You lose 9 hitpoints. 
+15:47 You lose 84 hitpoints due to an attack by a dragon. 
+15:47 You lose 85 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 435 hitpoints due to your attack. 
+15:47 You healed yourself for 340 hitpoints.
+15:47 A dragon loses 565 hitpoints due to your attack. 
+15:47 You gained 700 experience points.
+15:47 Loot of a dragon: dragon ham, 3 gold coins, a strong health potion.
+15:47 You lose 9 hitpoints. 
+15:47 A dragon loses 314 hitpoints due to your attack. 
+15:47 A dragon loses 301 hitpoints due to your attack. 
+15:47 A dragon loses 385 hitpoints due to your attack. 
+15:47 You gained 700 experience points.
+15:47 Loot of a dragon: dragon ham, 15 gold coins, a steel shield.
+15:47 You lose 9 hitpoints. 
+15:47 A dragon loses 389 hitpoints due to your attack. 
+15:47 You lose 34 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 537 hitpoints due to your attack. 
+15:47 You lose 25 hitpoints due to an attack by a dragon. 
+15:47 A dragon loses 74 hitpoints due to your attack. 
+15:47 You gained 700 experience points.
+15:47 Loot of a dragon: a crossbow, 2 dragon ham, green dragon leather, plate legs, a steel shield.
+15:47 A dragon loses 444 hitpoints due to your attack. 
+15:47 A dragon loses 339 hitpoints due to your attack. 
+15:47 You lose 75 hitpoints due to an attack by a dragon. 
+15:48 A dragon loses 217 hitpoints due to your attack. 
+15:48 You gained 700 experience points.
+15:48 Loot of a dragon: 36 gold coins, a steel helmet, a small diamond.
+15:48 You healed yourself for 371 hitpoints.
+
+Channel Server Log saved Wed Apr 12 18:47:24 2023
+18:31 Your last visit in Tibia: 12. Apr 2023 20:41:30 CEST.
+18:31 Today's boosted creature: Hydra
+Boosted creatures yield more experience points, carry more loot than usual and respawn at a faster rate.
+18:31 Today's boosted boss: Goshnar's Malice
+Boosted bosses contain more loot and count more kills for your Bosstiary.
+18:31 Due to your long-term loyalty to Tibia, you currently benefit from a 20% bonus on all of your skills.
+18:31 A deer loses 25 hitpoints due to your attack. 
+18:31 Loot of a deer: nothing.
+18:31 A deer loses 25 hitpoints due to your attack. 
+18:31 Loot of a deer: ham, 3 meat.
+18:31 A wyvern loses 424 hitpoints due to your attack. 
+18:31 A wyvern loses 371 hitpoints due to your attack. 
+18:31 You gained 515 experience points.
+18:31 Loot of a wyvern: dragon ham, 21 gold coins.
+18:31 A wyvern loses 284 hitpoints due to your attack. 
+18:31 You lose 13 hitpoints due to an attack by a wyvern. 
+18:31 You are poisoned.
+18:31 A wyvern loses 269 hitpoints due to your attack. 
+18:31 You lose 8 hitpoints due to an attack by a wyvern. 
+18:31 You are poisoned.
+18:31 A wyvern loses 231 hitpoints due to your attack. 
+18:31 A wyvern loses 11 hitpoints due to your attack. 
+18:31 You gained 515 experience points.
+18:31 Loot of a wyvern: dragon ham, 6 gold coins.
+18:31 You lose 18 hitpoints. 
+18:32 You lose 17 hitpoints. 
+18:32 You lose 16 hitpoints. 
+18:32 You lose 15 hitpoints. 
+18:32 You lose 14 hitpoints. 
+18:32 You lose 13 hitpoints. 
+18:32 You lose 13 hitpoints. 
+18:32 You lose 12 hitpoints. 
+18:32 You lose 11 hitpoints. 
+18:32 You lose 11 hitpoints. 
+18:33 A spider loses 20 hitpoints due to your attack. 
+18:33 You gained 12 experience points.
+18:33 Loot of a spider: 2 gold coins.
+18:33 A spider loses 20 hitpoints due to your attack. 
+18:33 You gained 12 experience points.
+18:33 Loot of a spider: nothing.
+18:33 A dwarf loses 90 hitpoints due to your attack. 
+18:33 You gained 45 experience points.
+18:33 Loot of a dwarf: a copper shield, leather legs.
+18:33 You lose 5 hitpoints due to an attack by a dwarf soldier. 
+18:33 A dwarf soldier loses 135 hitpoints due to your attack. 
+18:33 You gained 70 experience points.
+18:33 Loot of a dwarf soldier: 2 bolts, a gold coin, a soldier helmet.
+18:33 A dwarf loses 90 hitpoints due to your attack. 
+18:33 You gained 45 experience points.
+18:33 Loot of a dwarf: 4 gold coins.
+18:33 A dwarf soldier loses 135 hitpoints due to your attack. 
+18:33 You gained 70 experience points.
+18:33 Loot of a dwarf soldier: 5 bolts, a soldier helmet, 2 white mushrooms.
+18:33 A dwarf loses 90 hitpoints due to your attack. 
+18:33 You gained 45 experience points.
+18:33 Loot of a dwarf: a hatchet, a pick.
+18:33 A snake loses 15 hitpoints due to your attack. 
+18:33 You gained 10 experience points.
+18:33 A snake loses 15 hitpoints due to your attack. 
+18:33 You gained 10 experience points.
+18:33 A wolf loses 25 hitpoints due to your attack. 
+18:33 You gained 18 experience points.
+18:33 Loot of a wolf: nothing.
+18:33 A wolf loses 25 hitpoints due to your attack. 
+18:33 You gained 18 experience points.
+18:33 Loot of a wolf: meat.
+18:33 A wolf loses 25 hitpoints due to your attack. 
+18:33 You gained 18 experience points.
+18:33 Loot of a wolf: meat.
+18:33 A wolf loses 25 hitpoints due to your attack. 
+18:33 You gained 18 experience points.
+18:33 Loot of a wolf: nothing.
+18:34 You healed yourself for 287 hitpoints.
+18:35 A scorpion loses 45 hitpoints due to your attack. 
+18:35 You gained 45 experience points.
+18:35 Loot of a scorpion: nothing.
+18:35 A scorpion loses 45 hitpoints due to your attack. 
+18:35 You gained 45 experience points.
+18:35 Loot of a scorpion: nothing.
+18:35 A scorpion loses 45 hitpoints due to your attack. 
+18:35 You gained 45 experience points.
+18:35 Loot of a scorpion: nothing.
+18:35 A scorpion loses 45 hitpoints due to your attack. 
+18:35 You gained 45 experience points.
+18:35 Loot of a scorpion: a scorpion tail.
+18:36 You lose 8 hitpoints due to an attack by a scorpion. 
+18:36 You are poisoned.
+18:36 A scorpion loses 45 hitpoints due to your attack. 
+18:36 You gained 45 experience points.
+18:36 Loot of a scorpion: nothing.
+18:36 A scorpion loses 45 hitpoints due to your attack. 
+18:36 You gained 45 experience points.
+18:36 Loot of a scorpion: nothing.
+18:36 You lose 14 hitpoints. 
+18:36 A scorpion loses 45 hitpoints due to your attack. 
+18:36 You gained 45 experience points.
+18:36 Loot of a scorpion: a scorpion tail.
+18:36 You are poisoned.
+18:36 You lose 13 hitpoints. 
+18:36 You are poisoned.
+18:36 A scorpion loses 45 hitpoints due to your attack. 
+18:36 You gained 45 experience points.
+18:36 Loot of a scorpion: nothing.
+18:36 You lose 12 hitpoints. 
+18:36 You lose 3 hitpoints due to an attack by a scorpion. 
+18:36 You are poisoned.
+18:36 Using the last whacking driller of fate...
+18:36 You lose 5 hitpoints due to an attack by a scorpion. 
+18:36 You are poisoned.
+18:36 A scorpion loses 45 hitpoints due to your attack. 
+18:36 You gained 45 experience points.
+18:36 Loot of a scorpion: nothing.
+18:36 You lose 17 hitpoints due to an attack by a scorpion. 
+18:36 You lose 10 hitpoints due to an attack by a scorpion. 
+18:36 You are poisoned.
+18:36 You are poisoned.
+18:36 You lose 16 hitpoints due to an attack by a scorpion. 
+18:36 You lose 15 hitpoints due to an attack by a scorpion. 
+18:36 You lose 5 hitpoints due to an attack by a scorpion. 
+18:36 You are poisoned.
+18:36 You lose 17 hitpoints due to an attack by a scorpion. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 16 hitpoints due to an attack by a scorpion. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 15 hitpoints due to an attack by a scorpion. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 14 hitpoints due to an attack by a scorpion. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 14 hitpoints due to an attack by a scorpion. 
+18:36 You lose 9 hitpoints. 
+18:36 You lose 19 hitpoints. 
+18:36 You lose 13 hitpoints due to an attack by a scorpion. 
+18:36 A scorpion loses 45 hitpoints due to your attack. 
+18:36 You gained 45 experience points.
+18:36 Loot of a scorpion: nothing.
+18:36 You lose 12 hitpoints due to an attack by a scorpion. 
+18:37 You are poisoned.
+18:37 You lose 9 hitpoints. 
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You lose 12 hitpoints due to an attack by a scorpion. 
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You lose 11 hitpoints due to an attack by a scorpion. 
+18:37 You lose 9 hitpoints. 
+18:37 You lose 4 hitpoints due to an attack by a scorpion. 
+18:37 You are poisoned.
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You lose 14 hitpoints. 
+18:37 You healed yourself for 244 hitpoints.
+18:37 You lose 10 hitpoints due to an attack by a scorpion. 
+18:37 You are poisoned.
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You lose 9 hitpoints. 
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You lose 15 hitpoints. 
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You are poisoned.
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You are poisoned.
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You lose 5 hitpoints due to an attack by a scorpion. 
+18:37 You are poisoned.
+18:37 You lose 9 hitpoints. 
+18:37 You lose 16 hitpoints. 
+18:37 You are poisoned.
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You lose 11 hitpoints due to an attack by a scorpion. 
+18:37 You are poisoned.
+18:37 You lose 16 hitpoints. 
+18:37 A scorpion loses 45 hitpoints due to your attack. 
+18:37 You gained 45 experience points.
+18:37 Loot of a scorpion: nothing.
+18:37 You are poisoned.
+18:37 You lose 15 hitpoints. 
+18:37 You lose 9 hitpoints. 
+18:37 You lose 14 hitpoints. 
+18:37 An adventurer loses 65 hitpoints due to your attack. 
+18:37 Loot of an adventurer: nothing.
+18:37 You lose 13 hitpoints. 
+18:37 You lose 9 hitpoints. 
+18:37 A dragon loses 403 hitpoints due to your attack. 
+18:37 You lose 19 hitpoints due to an attack by a dragon. 
+18:37 You lose 12 hitpoints. 
+18:37 A dragon loses 277 hitpoints due to your attack. 
+18:37 A dragon loses 299 hitpoints due to your attack. 
+18:37 You lose 12 hitpoints. 
+18:37 A dragon loses 21 hitpoints due to your attack. 
+18:37 You gained 700 experience points.
+18:37 Loot of a dragon: 2 dragon ham, 66 gold coins.
+18:37 You lose 9 hitpoints. 
+18:37 A dragon loses 228 hitpoints due to your attack. 
+18:37 You lose 11 hitpoints. 
+18:37 A dragon loses 311 hitpoints due to your attack. 
+18:37 You lose 11 hitpoints. 
+18:37 A dragon loses 320 hitpoints due to your attack. 
+18:37 You healed yourself for 395 hitpoints.
+18:38 A dragon loses 141 hitpoints due to your attack. 
+18:38 You gained 700 experience points.
+18:38 Loot of a dragon: 2 burst arrows, 2 dragon ham, 4 gold coins, a steel helmet.
+18:38 You lose 10 hitpoints. 
+18:38 You lose 105 hitpoints due to an attack by a dragon. 
+18:38 You lose 39 hitpoints due to an attack by a dragon. 
+18:38 A dragon loses 294 hitpoints due to your attack. 
+18:38 You lose 23 hitpoints due to an attack by a dragon. 
+18:38 You lose 46 hitpoints due to an attack by a dragon. 
+18:38 You lose 9 hitpoints. 
+18:38 You healed yourself for 282 hitpoints.
+18:38 A dragon loses 330 hitpoints due to your attack. 
+18:38 You lose 26 hitpoints due to an attack by a dragon. 
+18:38 You lose 16 hitpoints due to an attack by a dragon. 
+18:38 A dragon loses 322 hitpoints due to your attack. 
+18:38 You lose 60 hitpoints due to an attack by a dragon. 
+18:38 You lose 82 hitpoints due to an attack by a dragon. 
+18:38 You lose 23 hitpoints due to an attack by a dragon. 
+18:38 You lose 9 hitpoints. 
+18:38 You healed yourself for 362 hitpoints.
+18:38 You lose 46 hitpoints due to an attack by a dragon. 
+18:38 A dragon loses 54 hitpoints due to your attack. 
+18:38 You gained 700 experience points.
+18:38 Loot of a dragon: 2 dragon ham, 5 gold coins.
+18:38 You lose 21 hitpoints due to an attack by a dragon. 
+18:38 A dragon loses 571 hitpoints due to your attack. 
+18:38 You lose 8 hitpoints. 
+18:38 You lose 14 hitpoints due to an attack by a dragon. 
+18:38 A dragon loses 429 hitpoints due to your attack. 
+18:38 You gained 700 experience points.
+18:38 Loot of a dragon: a dragon's tail, 47 gold coins.
+18:38 You lose 8 hitpoints. 
+18:38 You lose 63 hitpoints due to an attack by a dragon lord. 
+18:38 A dragon lord loses 283 hitpoints due to your attack. 
+18:38 You lose 105 hitpoints due to an attack by a dragon lord. 
+18:38 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:38 You lose 7 hitpoints. 
+18:38 A dragon lord loses 373 hitpoints due to your attack. 
+18:38 You lose 62 hitpoints due to an attack by a dragon lord. 
+18:38 A dragon lord loses 364 hitpoints due to your attack. 
+18:38 You lose 91 hitpoints due to an attack by a dragon lord. 
+18:38 You healed yourself for 338 hitpoints.
+18:38 You lose 7 hitpoints. 
+18:38 A dragon lord loses 236 hitpoints due to your attack. 
+18:38 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:38 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:38 You lose 79 hitpoints due to an attack by a dragon lord. 
+18:38 A dragon lord loses 407 hitpoints due to your attack. 
+18:38 You healed yourself for 303 hitpoints.
+18:38 You lose 49 hitpoints due to an attack by a dragon lord. 
+18:38 You lose 7 hitpoints. 
+18:38 A dragon lord loses 234 hitpoints due to your attack. 
+18:38 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:38 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:38 A dragon lord loses 3 hitpoints due to your attack. 
+18:38 You gained 2100 experience points.
+18:38 Loot of a dragon lord: dragon ham, 80 gold coins, a royal spear.
+18:38 You lose 19 hitpoints. 
+18:38 You lose 6 hitpoints. 
+18:38 You lose 19 hitpoints. 
+18:38 You lose 6 hitpoints. 
+18:38 You lose 6 hitpoints. 
+18:38 You lose 9 hitpoints. 
+18:38 You lose 5 hitpoints. 
+18:38 A dragon loses 464 hitpoints due to your attack. 
+18:38 You lose 15 hitpoints due to an attack by a dragon. 
+18:38 A dragon loses 281 hitpoints due to your attack. 
+18:38 You lose 5 hitpoints. 
+18:38 A dragon loses 255 hitpoints due to your attack. 
+18:38 You gained 700 experience points.
+18:38 Loot of a dragon: 26 gold coins.
+18:38 You lose 9 hitpoints. 
+18:38 You lose 5 hitpoints. 
+18:38 A dragon loses 389 hitpoints due to your attack. 
+18:38 A dragon healed itself for 67 hitpoints.
+18:38 A dragon loses 476 hitpoints due to your attack. 
+18:38 You lose 4 hitpoints. 
+18:39 A dragon loses 202 hitpoints due to your attack. 
+18:39 You gained 700 experience points.
+18:39 Loot of a dragon: dragon ham, 28 gold coins, a steel shield.
+18:39 You lose 9 hitpoints. 
+18:39 You lose 4 hitpoints. 
+18:39 A dragon loses 475 hitpoints due to your attack. 
+18:39 A dragon loses 488 hitpoints due to your attack. 
+18:39 You lose 4 hitpoints. 
+18:39 A dragon loses 37 hitpoints due to your attack. 
+18:39 You gained 700 experience points.
+18:39 Loot of a dragon: dragon ham, 4 gold coins.
+18:39 You lose 4 hitpoints. 
+18:39 You lose 9 hitpoints. 
+18:39 You lose 3 hitpoints. 
+18:39 You lose 3 hitpoints. 
+18:39 A dragon loses 302 hitpoints due to your attack. 
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 57 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 79 hitpoints due to an attack by a dragon. 
+18:39 A dragon loses 318 hitpoints due to your attack. 
+18:39 Using one of 268 great mana potions...
+18:39 You gained 171 mana.
+18:39 You lose 49 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 3 hitpoints. 
+18:39 You lose 7 hitpoints due to an attack by a dragon. 
+18:39 A dragon loses 292 hitpoints due to your attack. 
+18:39 You healed yourself for 402 hitpoints.
+18:39 You lose 37 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon loses 88 hitpoints due to your attack. 
+18:39 You gained 700 experience points.
+18:39 Loot of a dragon: dragon ham, 69 gold coins, a longsword.
+18:39 You lose 96 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 147 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 3 hitpoints. 
+18:39 You healed yourself for 282 hitpoints.
+18:39 You lose 39 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord loses 324 hitpoints due to your attack. 
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 97 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord healed itself for 88 hitpoints.
+18:39 A dragon lord loses 232 hitpoints due to your attack. 
+18:39 You lose 3 hitpoints. 
+18:39 You lose 41 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 133 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord loses 205 hitpoints due to your attack. 
+18:39 You lose 54 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord loses 281 hitpoints due to your attack. 
+18:39 You lose 2 hitpoints. 
+18:39 You healed yourself for 392 hitpoints.
+18:39 You lose 76 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord loses 288 hitpoints due to your attack. 
+18:39 You lose 77 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord healed itself for 82 hitpoints.
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord loses 340 hitpoints due to your attack. 
+18:39 You lose 2 hitpoints. 
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 20 hitpoints due to an attack by a dragon lord. 
+18:39 You lose 96 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord healed itself for 64 hitpoints.
+18:39 A dragon lord loses 420 hitpoints due to your attack. 
+18:39 You lose 42 hitpoints due to an attack by a dragon lord. 
+18:39 A dragon lord loses 44 hitpoints due to your attack. 
+18:39 You gained 2100 experience points.
+18:39 Loot of a dragon lord: 69 gold coins.
+18:39 You lose 2 hitpoints. 
+18:39 You lose 19 hitpoints. 
+18:39 You lose 19 hitpoints. 
+18:39 You lose 19 hitpoints. 
+18:39 You lose 2 hitpoints. 
+18:39 You lose 2 hitpoints. 
+18:39 You lose 9 hitpoints. 
+18:39 You lose 2 hitpoints. 
+18:39 A dragon loses 230 hitpoints due to your attack. 
+18:39 A dragon loses 277 hitpoints due to your attack. 
+18:39 You lose 1 hitpoint. 
+18:40 You lose 58 hitpoints due to an attack by a dragon. 
+18:40 Using one of 267 great mana potions...
+18:40 You gained 196 mana.
+18:40 A dragon loses 493 hitpoints due to your attack. 
+18:40 You gained 700 experience points.
+18:40 Loot of a dragon: 2 dragon ham, 7 gold coins.
+18:40 Using one of 266 great mana potions...
+18:40 You gained 150 mana.
+18:40 You lose 9 hitpoints. 
+18:40 Using one of 265 great mana potions...
+18:40 You gained 188 mana.
+18:40 You lose 1 hitpoint. 
+18:40 You lose 1 hitpoint. 
+18:40 You lose 36 hitpoints due to an attack by a dragon. 
+18:40 A dragon loses 365 hitpoints due to your attack. 
+18:40 You lose 40 hitpoints due to an attack by a dragon. 
+18:40 You lose 79 hitpoints due to an attack by a dragon. 
+18:40 A dragon healed itself for 44 hitpoints.
+18:40 A dragon loses 513 hitpoints due to your attack. 
+18:40 You lose 1 hitpoint. 
+18:40 You lose 9 hitpoints. 
+18:40 Using one of 264 great mana potions...
+18:40 You gained 203 mana.
+18:40 A dragon loses 166 hitpoints due to your attack. 
+18:40 You gained 700 experience points.
+18:40 Loot of a dragon: a crossbow, 2 dragon ham, a dragon's tail, 29 gold coins.
+18:40 Using one of 263 great mana potions...
+18:40 You gained 217 mana.
+18:40 Using one of 262 great mana potions...
+18:40 You gained 161 mana.
+18:40 You lose 1 hitpoint. 
+18:40 Using one of 261 great mana potions...
+18:40 You gained 216 mana.
+18:40 A dragon hatchling loses 380 hitpoints due to your attack. 
+18:40 You gained 185 experience points.
+18:40 Loot of a dragon hatchling: 25 gold coins.
+18:40 You lose 1 hitpoint. 
+18:40 A dragon hatchling loses 380 hitpoints due to your attack. 
+18:40 You gained 185 experience points.
+18:40 Loot of a dragon hatchling: dragon ham, 6 gold coins.
+18:40 You lose 9 hitpoints. 
+18:40 You healed yourself for 423 hitpoints.
+18:40 You lose 43 hitpoints due to an attack by a dragon. 
+18:40 A dragon loses 301 hitpoints due to your attack. 
+18:40 You lose 87 hitpoints due to an attack by a dragon. 
+18:40 You lose 1 hitpoint. 
+18:40 A dragon loses 395 hitpoints due to your attack. 
+18:40 A dragon loses 253 hitpoints due to your attack. 
+18:40 You lose 1 hitpoint. 
+18:40 A dragon loses 51 hitpoints due to your attack. 
+18:40 You gained 700 experience points.
+18:40 Loot of a dragon: 74 gold coins, plate legs.
+18:40 You lose 46 hitpoints due to an attack by a dragon. 
+18:40 You lose 9 hitpoints. 
+18:40 You lose 48 hitpoints due to an attack by a dragon. 
+18:40 A dragon loses 370 hitpoints due to your attack. 
+18:40 You lose 28 hitpoints due to an attack by a dragon. 
+18:40 You lose 1 hitpoint. 
+18:40 You healed yourself for 307 hitpoints.
+18:40 A dragon loses 542 hitpoints due to your attack. 
+18:40 You lose 108 hitpoints due to an attack by a dragon. 
+18:40 A dragon loses 88 hitpoints due to your attack. 
+18:40 You gained 700 experience points.
+18:40 Loot of a dragon: a dragon's tail, 50 gold coins.
+18:40 You lose 1 hitpoint. 
+18:40 A dragon loses 351 hitpoints due to your attack. 
+18:40 You lose 135 hitpoints due to an attack by a dragon. 
+18:40 You lose 9 hitpoints. 
+18:40 A dragon loses 557 hitpoints due to your attack. 
+18:40 A dragon loses 92 hitpoints due to your attack. 
+18:40 You gained 700 experience points.
+18:40 Loot of a dragon: 24 gold coins, a small diamond.
+18:40 You lose 9 hitpoints. 
+18:41 You lose 1 hitpoint due to an attack by a scorpion. 
+18:41 You are poisoned.
+18:41 You lose 13 hitpoints due to an attack by a scorpion. 
+18:41 You lose 12 hitpoints due to an attack by a scorpion. 
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 You lose 11 hitpoints. 
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 You lose 11 hitpoints. 
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 You lose 10 hitpoints. 
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 You lose 9 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 8 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 8 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You healed yourself for 304 hitpoints.
+18:41 You lose 19 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 8 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 7 hitpoints. 
+18:41 Using one of 260 great mana potions...
+18:41 You gained 214 mana.
+18:41 You lose 19 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 Using one of 259 great mana potions...
+18:41 You gained 154 mana.
+18:41 You lose 19 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You healed yourself for 388 hitpoints.
+18:41 You lose 9 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 7 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 9 hitpoints. 
+18:41 You lose 19 hitpoints. 
+18:41 Using the last whacking driller of fate...
+18:41 You lose 6 hitpoints. 
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 You are poisoned.
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 A scorpion loses 45 hitpoints due to your attack. 
+18:41 You gained 45 experience points.
+18:41 Loot of a scorpion: nothing.
+18:41 You lose 9 hitpoints. 
+18:41 You lose 13 hitpoints. 
+18:41 You see a whacking driller of fate.
+It weighs 3.00 oz.
+This nifty gadget can be used for many vital and less vital purposes. If it's not jammed, that is.
+18:42 You lose 12 hitpoints. 
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 You lose 9 hitpoints. 
+18:42 You lose 11 hitpoints. 
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 You lose 11 hitpoints. 
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: a scorpion tail.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 You lose 10 hitpoints. 
+18:42 You lose 9 hitpoints. 
+18:42 You lose 13 hitpoints due to an attack by a scorpion. 
+18:42 You are poisoned.
+18:42 You lose 2 hitpoints due to an attack by a scorpion. 
+18:42 You are poisoned.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 You lose 13 hitpoints. 
+18:42 You lose 9 hitpoints. 
+18:42 You lose 12 hitpoints. 
+18:42 You lose 12 hitpoints. 
+18:42 You lose 9 hitpoints. 
+18:42 You are poisoned.
+18:42 You lose 16 hitpoints due to an attack by a scorpion. 
+18:42 You lose 15 hitpoints due to an attack by a scorpion. 
+18:42 A scorpion loses 45 hitpoints due to your attack. 
+18:42 You gained 45 experience points.
+18:42 Loot of a scorpion: nothing.
+18:42 You lose 9 hitpoints. 
+18:42 You lose 14 hitpoints due to an attack by a scorpion. 
+18:42 You lose 13 hitpoints due to an attack by a scorpion. 
+18:42 You lose 9 hitpoints. 
+18:42 You lose 13 hitpoints due to an attack by a scorpion. 
+18:42 You lose 12 hitpoints due to an attack by a scorpion. 
+18:43 You lose 11 hitpoints due to an attack by a scorpion. 
+18:43 You lose 11 hitpoints due to an attack by a scorpion. 
+18:43 You lose 10 hitpoints due to an attack by a scorpion. 
+18:43 You lose 10 hitpoints due to an attack by a scorpion. 
+18:43 Using one of 258 great mana potions...
+18:43 You gained 216 mana.
+18:43 You lose 9 hitpoints due to an attack by a scorpion. 
+18:43 You healed yourself for 282 hitpoints.
+18:43 You healed yourself for 361 hitpoints.
+18:43 You lose 9 hitpoints due to an attack by a scorpion. 
+18:43 You lose 8 hitpoints due to an attack by a scorpion. 
+18:43 You lose 8 hitpoints due to an attack by a scorpion. 
+18:43 You lose 7 hitpoints due to an attack by a scorpion. 
+18:43 You lose 7 hitpoints due to an attack by a scorpion. 
+18:43 You lose 6 hitpoints due to an attack by a scorpion. 
+18:43 You lose 6 hitpoints due to an attack by a scorpion. 
+18:43 A bug loses 29 hitpoints due to your attack. 
+18:43 You gained 18 experience points.
+18:43 Loot of a bug: nothing.
+18:43 A bug loses 29 hitpoints due to your attack. 
+18:43 You gained 18 experience points.
+18:43 Loot of a bug: nothing.
+18:43 A bug loses 29 hitpoints due to your attack. 
+18:43 You gained 18 experience points.
+18:43 Loot of a bug: nothing.
+18:44 You see a frog leaf.
+18:44 It is locked.
+18:44 It is locked.
+18:44 A bat loses 30 hitpoints due to your attack. 
+18:44 You gained 10 experience points.
+18:44 Loot of a bat: nothing.
+18:44 A bat loses 30 hitpoints due to your attack. 
+18:44 You gained 10 experience points.
+18:44 Loot of a bat: nothing.
+18:45 A skeleton loses 50 hitpoints due to your attack. 
+18:45 You gained 35 experience points.
+18:45 Loot of a skeleton: 6 gold coins.
+18:45 A skeleton loses 50 hitpoints due to your attack. 
+18:45 You gained 35 experience points.
+18:45 Loot of a skeleton: a bone, 2 gold coins.
+18:45 A skeleton loses 50 hitpoints due to your attack. 
+18:45 You gained 35 experience points.
+18:45 Loot of a skeleton: 10 gold coins.
+18:45 You lose 45 hitpoints due to an attack by a bonelord. 
+18:45 A bonelord loses 260 hitpoints due to your attack. 
+18:45 You gained 170 experience points.
+18:45 Loot of a bonelord: 23 gold coins.
+18:45 A bonelord loses 260 hitpoints due to your attack. 
+18:45 You gained 170 experience points.
+18:45 Loot of a bonelord: 42 gold coins.
+18:45 A bonelord loses 260 hitpoints due to your attack. 
+18:45 You gained 170 experience points.
+18:45 Loot of a bonelord: 22 gold coins, a spellbook.
+18:45 A skeleton loses 50 hitpoints due to your attack. 
+18:45 You gained 35 experience points.
+18:45 Loot of a skeleton: a gold coin.
+18:45 A wyvern loses 481 hitpoints due to your attack. 
+18:45 You lose 12 hitpoints due to an attack by a wyvern. 
+18:45 You are poisoned.
+18:45 A wyvern loses 309 hitpoints due to your attack. 
+18:45 You lose 14 hitpoints due to an attack by a wyvern. 
+18:45 You are poisoned.
+18:45 You lose 19 hitpoints due to an attack by a bonelord. 
+18:45 A wyvern loses 5 hitpoints due to your attack. 
+18:45 You gained 515 experience points.
+18:45 Loot of a wyvern: dragon ham, 34 gold coins.
+18:45 You lose 22 hitpoints. 
+18:45 A bonelord loses 260 hitpoints due to your attack. 
+18:45 You gained 170 experience points.
+18:45 Loot of a bonelord: 25 gold coins, a two handed sword.
+18:45 You lose 30 hitpoints due to an attack by a bonelord. 
+18:45 A bonelord loses 260 hitpoints due to your attack. 
+18:45 You gained 170 experience points.
+18:45 Loot of a bonelord: 15 gold coins, a longsword.
+18:46 You lose 20 hitpoints. 
+18:46 Using one of 257 great mana potions...
+18:46 You gained 239 mana.
+18:46 Using one of 256 great mana potions...
+18:46 You gained 203 mana.
+18:46 You healed yourself for 282 hitpoints.
+18:46 You lose 19 hitpoints. 
+18:46 You lose 147 hitpoints due to an attack by a Black Knight. 
+18:46 You lose 106 hitpoints due to an attack by a Black Knight. 
+18:46 A Black Knight loses 246 hitpoints due to your attack. 
+18:46 Using one of 255 great mana potions...
+18:46 You lose 17 hitpoints due to an attack by a bonelord. 
+18:46 You gained 211 mana.
+18:46 You lose 18 hitpoints. 
+18:46 You lose 68 hitpoints due to an attack by a Black Knight. 
+18:46 A Black Knight loses 198 hitpoints due to your attack. 
+18:46 You lose 43 hitpoints due to an attack by a bonelord. 
+18:46 You lose 9 hitpoints. 
+18:46 A Black Knight loses 438 hitpoints due to your attack. 
+18:46 Using one of 254 great mana potions...
+18:46 You gained 162 mana.
+18:46 You lose 17 hitpoints. 
+18:46 You healed yourself for 321 hitpoints.
+18:46 A Black Knight loses 257 hitpoints due to your attack. 
+18:46 You lose 24 hitpoints due to an attack by a bonelord. 
+18:46 A Black Knight loses 200 hitpoints due to your attack. 
+18:46 You lose 128 hitpoints due to an attack by a Black Knight. 
+18:46 You lose 17 hitpoints. 
+18:46 A Black Knight loses 328 hitpoints due to your attack. 
+18:46 You lose 21 hitpoints due to an attack by a bonelord. 
+18:46 You lose 9 hitpoints. 
+18:46 You are poisoned.
+18:46 A Black Knight loses 133 hitpoints due to your attack. 
+18:46 You gained 1600 experience points.
+18:46 Loot of a Black Knight: nothing.
+18:46 You lose 16 hitpoints. 
+18:46 A skeleton loses 50 hitpoints due to your attack. 
+18:46 You lose 35 hitpoints due to an attack by a bonelord. 
+18:46 A bonelord loses 260 hitpoints due to your attack. 
+18:46 You gained 170 experience points.
+18:46 Loot of a bonelord: 29 gold coins.
+18:46 You lose 15 hitpoints. 
+18:46 You are poisoned.
+18:46 A bonelord loses 260 hitpoints due to your attack. 
+18:46 You gained 170 experience points.
+18:46 Loot of a bonelord: 16 gold coins, a steel shield.
+18:46 A scorpion loses 45 hitpoints due to your attack. 
+18:46 You gained 45 experience points.
+18:46 Loot of a scorpion: nothing.
+18:46 You lose 14 hitpoints. 
+18:46 You lose 9 hitpoints. 
+18:46 You lose 11 hitpoints due to an attack by a scorpion. 
+18:46 You are poisoned.
+18:46 A scorpion loses 45 hitpoints due to your attack. 
+18:46 You gained 45 experience points.
+18:46 Loot of a scorpion: nothing.
+18:46 You see a dead black knight (Vol:25).
+18:46 A scorpion loses 45 hitpoints due to your attack. 
+18:46 You gained 45 experience points.
+18:46 Loot of a scorpion: nothing.
+18:46 You lose 13 hitpoints. 
+18:46 You lose 13 hitpoints. 
+18:46 You lose 9 hitpoints. 
+18:46 You lose 9 hitpoints. 
+18:46 You lose 9 hitpoints. 
+18:47 You healed yourself for 345 hitpoints.
+18:47 You healed yourself for 130 hitpoints.

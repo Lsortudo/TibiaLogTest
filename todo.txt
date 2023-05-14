@@ -39,3 +39,5 @@ DONE____________________________________________________Switchs no lugar do if;
 Estruturar meu struct (como se fosse um Dataclass em Kotlin)
 
 Estruturar meu struct pra ficar em conforme com possível arquivo JSON pra ser enviado pra webserver//front
+
+DONE____________________________________________________Ordem decrescente loot/dano dos inimigos

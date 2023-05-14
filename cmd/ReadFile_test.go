@@ -5,18 +5,7 @@ package cmd
 
 import "testing"
 
-func equalLootMap(a, b map[string]int) bool {
-	if len(a) != len(b) {
-		return false
-	}
-	for key, val := range a {
-		if bval, ok := b[key]; !ok || bval != val {
-			return false
-		}
-	}
-	return true
-}
-func Test_creatureBlackKnightHealth(t *testing.T) {
+func TestCreatureBlackKnightHealth(t *testing.T) {
 	healthBlackKnight = 0
 
 	// Teste caso a mensagem seja válida
@@ -50,7 +39,7 @@ func Test_creatureBlackKnightHealth(t *testing.T) {
 
 }
 
-func Test_creatureLootTotal(t *testing.T) {
+func TestCreatureLootTotal(t *testing.T) {
 	// Caso de teste com uma mensagem válida contendo um item
 	message := "15:43 Loot of a cyclops: a sword"
 	lootMap = make(map[string]int)
@@ -194,4 +183,16 @@ func TestPlayerLossMessageProcessor_Process(t *testing.T) {
 	if playerDamageTaken != expectedDamage {
 		t.Errorf("Resultado incorreto. Esperado: %d, Obtido: %d", expectedDamage, playerDamageTaken)
 	}
+}
+
+func equalLootMap(a, b map[string]int) bool {
+	if len(a) != len(b) {
+		return false
+	}
+	for key, val := range a {
+		if bval, ok := b[key]; !ok || bval != val {
+			return false
+		}
+	}
+	return true
 }
