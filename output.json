@@ -1,0 +1,52 @@
+{
+  "hitpointsHealed": 8048,
+  "damageTaken": {
+    "total": 7683,
+    "byCreatureKind": {
+      "Knight": 449,
+      "bonelord": 234,
+      "cyclops": 101,
+      "dragon": 2427,
+      "ghoul": 2,
+      "lord": 1770,
+      "scorpion": 470,
+      "smith": 29,
+      "soldier": 17,
+      "wyvern": 47
+    }
+  },
+  "experienceGained": 31363,
+  "loot": {
+    "bolt": 7,
+    "bone": 1,
+    "burst arrow": 2,
+    "copper shield": 1,
+    "crossbow": 2,
+    "cyclops toe": 1,
+    "cyclops trophy": 1,
+    "dragon ham": 26,
+    "dragon's tail": 3,
+    "gold coin": 1177,
+    "green dragon leather": 1,
+    "ham": 1,
+    "hatchet": 2,
+    "leather leg": 1,
+    "letter": 1,
+    "longsword": 2,
+    "meat": 6,
+    "pick": 1,
+    "plate leg": 3,
+    "royal spear": 1,
+    "scorpion tail": 3,
+    "small diamond": 2,
+    "soldier helmet": 2,
+    "spellbook": 1,
+    "steel helmet": 2,
+    "steel shield": 4,
+    "strong health potion": 1,
+    "two handed sword": 1,
+    "white mushroom": 2
+  },
+  "healthBlackKnight": 1800,
+  "unknownOriginDamage": 2137
+}

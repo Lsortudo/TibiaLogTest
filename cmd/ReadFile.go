@@ -5,7 +5,9 @@ package cmd
 
 import (
 	"bufio"
+	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"os"
 	"sort"
@@ -14,6 +16,22 @@ import (
 
 	"github.com/spf13/cobra"
 )
+
+type DamageByCreature map[string]int
+
+type LootMap map[string]int
+
+type JSONData struct {
+	HitpointsHealed int `json:"hitpointsHealed"`
+	DamageTaken     struct {
+		Total          int              `json:"total"`
+		ByCreatureKind DamageByCreature `json:"byCreatureKind"`
+	} `json:"damageTaken"`
+	ExperienceGained    int     `json:"experienceGained"`
+	Loot                LootMap `json:"loot"`
+	HealthBlackKnight   int     `json:"healthBlackKnight"`
+	UnknownOriginDamage int     `json:"unknownOriginDamage"`
+}
 
 // Declarar variaveis
 var filePath string
@@ -246,4 +264,39 @@ func ReadServerLogFile() {
 	fmt.Printf("------------------------ EXTRAS ------------------------\n")
 	fmt.Printf("Total damage from unknown sources: %d\n", unknownDamageOrigin)
 	fmt.Printf("Black Knight: %d\n", healthBlackKnight)
+	fmt.Printf("------------------------ JSON ------------------------\n")
+	// Convert data to JSON
+
+	jsonData := JSONData{
+		HitpointsHealed: playerHealed,
+		DamageTaken: struct {
+			Total          int              `json:"total"`
+			ByCreatureKind DamageByCreature `json:"byCreatureKind"`
+		}{
+			Total:          playerDamageTaken + unknownDamageOrigin,
+			ByCreatureKind: enemyDamages,
+		},
+		ExperienceGained:    playerExperience,
+		Loot:                combinedLootMap,
+		UnknownOriginDamage: unknownDamageOrigin,
+		HealthBlackKnight:   healthBlackKnight,
+	}
+	// Printar JSON no console, utilizar JSON Beauty Website pra verificar se tá na estrutura solicitada
+	/*jsonBytes, err := json.Marshal(jsonData)
+	if err != nil {
+		log.Fatal("Erro ao converter para JSON:", err)
+	}
+
+	fmt.Println(string(jsonBytes))*/
+	jsonExternalOutput, err := json.MarshalIndent(jsonData, "", "  ")
+	if err != nil {
+		log.Fatal("Erro ao converter para JSON:", err)
+	}
+	filePathJson := "output.json"
+	err = ioutil.WriteFile(filePathJson, jsonExternalOutput, 0644)
+	if err != nil {
+		log.Fatal("Erro ao gravar arquivo:", err)
+	}
+	fmt.Println("JSON gravado com sucesso no arquivo:", filePathJson)
+
 }
